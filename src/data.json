@@ -1,0 +1,139 @@
+[   
+    {   
+        "id": 0,
+        "question": "What does the map method do?",
+        "bg": "#ac0a0a",
+        "color":"#ffffff",
+        "answers": [
+            {
+                "text": "Transforms an array into another array",
+                "next": 1
+            },
+            {
+                "text": "Reduces an array to a single value",
+                "next": 6
+            }
+        ]
+
+    },
+
+    {   
+        "id": 1,
+        "question": "What does the filter method do?",
+        "bg": "#df3f00",
+        "color": "#dfa400",
+        "answers": [
+            {
+                "text": "Reduces an array to a single value",
+                "next": 6
+            },
+            {
+                "text": "Creates an array filled with all array elements (if true)",
+                "next": 2
+            }
+        ]
+
+    },
+
+    {   
+        "id": 2,
+        "question": "How do you start a react project?",
+        "bg": "#fffb2b",
+        "color": "#000000",
+        "answers": [
+            {
+                "text": "npm create-react-app",
+                "next": 6
+            },
+            {
+                "text": "npx create-react-app",
+                "next": 3
+            }
+        ]
+
+    },
+
+    {   
+        "id": 3,
+        "question": "Which folder is the app.js typically located in?",
+        "bg": "#099c22",
+        "color": "#0B3901",
+        "answers": [
+            {
+                "text": "src",
+                "next": 4
+            },
+            {
+                "text": "public",
+                "next": 6
+            }
+        ]
+
+    },
+
+    {   
+        "id": 4,
+        "question": "What is a promise?",
+        "bg": "#083597",
+        "color":"#ffffff",
+        "answers": [
+            {
+                "text": "A function passed as an argument to another function.",
+                "next": 6
+            },
+            {
+                "text": "A proxy for a value not necessarily known when the promise is created.",
+                "next": 5
+            }
+        ]
+
+    },
+
+    {   "id": 5,
+        "question": "What does the reduce method do?",
+        "bg": "#460557",
+        "color": "#000000",
+        "answers": [
+            {
+                "text": "Makes the function return a promise.",
+                "next": 6
+            },
+            {
+                "text": "Transforms an array to a single value.",
+                "next": 7
+            }
+        ]
+
+    },
+
+    {   "id": 6,
+        "question": "Wrong answer! Game over.",
+        "bg": "#000000",
+        "color": "#FFFFFF",
+        "answers": [
+            {
+                "text": "Try again?",
+                "next": 0
+            }
+        ]
+
+    },
+
+    {   "id": 7,
+        "question": "Congratulations! 100%!",
+        "bg": "#FE1CAC",
+        "color": "#FFC4E9",
+        "answers": [
+            {
+                "text": "Play again?",
+                "next": 0
+            }
+        ]
+
+    }
+
+
+    
+
+    
+]

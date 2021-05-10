@@ -1,22 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Game from "./components/game";
+import data from "./data.json";
 
 function App() {
+// React Hooks
+  const [pointer, setPointer] = useState(0);
+  const [bgcolor, setBgcolor] = useState("#F00000");
+
+  const textcolor = data[pointer].color;
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="App" style={{ backgroundColor: bgcolor, color: textcolor }}>
+      <header
+        className="App-header"
+        style={{ backgroundColor: bgcolor, color: textcolor }}
+      >
+        <Game pointer={pointer} setBgcolor={(bgcolor) => setBgcolor(bgcolor)} />
       </header>
     </div>
   );
