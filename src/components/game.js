@@ -6,7 +6,7 @@ import "./game.css";
 function Game({ id, setBgcolor }) {
   const [pointer, setPointer] = useState(0);
   //Props
-  const { body, question } = data[pointer];
+  const { question, answers } = data[pointer];
 
   //Colors
   const bg = data[pointer].bg;
@@ -23,6 +23,8 @@ function Game({ id, setBgcolor }) {
         >
           <h1>{pointer}</h1>
         </div>
+
+        <h1>React Quiz!</h1>
 
         <div className="title">
           <h1>{question}</h1>
